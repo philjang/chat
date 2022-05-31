@@ -22,6 +22,7 @@ first socket.io implementation
 # Wireframes
 
 # ERD
+![ERD of database](./ERD.png)
 
 # User Stories
 
