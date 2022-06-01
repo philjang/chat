@@ -20,6 +20,11 @@ first socket.io implementation
 # Client URL Patterns (React Routes)
 
 # Wireframes
+<details>
+<summary> Click to display</summary>
+
+![Wireframe](./wireframe.png)
+</details>
 
 # ERD
 ![ERD of database](./ERD.png)
