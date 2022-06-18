@@ -1,0 +1,11 @@
+(user table)
+sequelize model:create --name user --attributes email:string,password:string,username:string
+
+(room table)
+sequelize model:create --name room --attributes name:string,owner:integer
+
+(join table - user M:N room)
+sequelize model:create --name usersRooms --attributes userId:integer,roomId:integer
+
+(post table)
+sequelize model:create --name post --attributes roomId:integer,userId:integer,content:text
