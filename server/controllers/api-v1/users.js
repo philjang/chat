@@ -20,6 +20,11 @@ router.post('/login', async (req, res) => {
     res.send('NOT YET IMPLEMENTED: POST /users/login');
 });
 
+// GET /api-v1/users/:id
+router.get('/:id', async (req, res) => {
+    res.send('NOT YET IMPLEMENTED: GET /users/:id');
+});
+
 // PUT /api-v1/users/:id
 router.put('/:id', async (req, res) => {
     res.send('NOT YET IMPLEMENTED: PUT /users/:id');
