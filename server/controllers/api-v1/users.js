@@ -20,7 +20,7 @@ router.post('/login', async (req, res) => {
     res.send('NOT YET IMPLEMENTED: POST /users/login');
 });
 
-// GET /api-v1/users/:id
+// GET /api-v1/users/:id -- READ rooms associated(favorited?) to user with :id
 router.get('/:id', async (req, res) => {
     res.send('NOT YET IMPLEMENTED: GET /users/:id');
 });
