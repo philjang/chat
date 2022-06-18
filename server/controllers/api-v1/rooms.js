@@ -6,6 +6,11 @@ router.get('/', async (req, res) => {
     res.send('NOT YET IMPLEMENTED: GET /rooms');
 });
 
+// POST /api-v1/rooms
+router.post('/', async (req, res) => {
+    res.send('NOT YET IMPLEMENTED: POST /rooms');
+});
+
 // GET /api-v1/rooms/:id
 router.get('/:id', async (req, res) => {
     res.send('NOT YET IMPLEMENTED: GET /rooms/:id');
